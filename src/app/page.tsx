@@ -1,13 +1,14 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import TypedTitle from '../../components/TypedTitle';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center py-24">
-      <div className="z-10 max-w-7xl items-center justify-between font-mono sm:text-xs text-sm lg:flex-col">
-        <p className="font-mono font-bold text-center text-lg md:text-4xl">action | pause | reaction</p>
+      <div className="z-10 max-w-1/2 mx-auto items-center justify-between font-mono sm:text-xs text-sm">
+        <TypedTitle />
         <br/>
         <p className="font-mono text-center text-sm">returning soon. stay tuned. xoxo</p>
         <br/>
