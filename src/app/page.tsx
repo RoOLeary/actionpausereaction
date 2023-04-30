@@ -9,7 +9,7 @@ export default function Home() {
       <div className="z-10 max-w-7xl items-center justify-between font-mono sm:text-xs text-sm lg:flex-col">
         <p className="font-mono font-bold text-center text-lg md:text-4xl">action | pause | reaction</p>
         <br/>
-        <p className="font-mono text-center text-sm">coming (back) again soon. stay tuned</p>
+        <p className="font-mono text-center text-sm">returning soon. stay tuned. xoxo</p>
         <br/>
         <br />
         <div className="py-8">
